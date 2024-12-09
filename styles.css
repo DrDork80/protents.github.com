@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+/* App Store Preview Container */
+.app-store-preview {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.app-header {
+    margin-bottom: 20px;
+}
+.app-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.app-header h1 {
+    font-size: 1.8em;
+    margin: 10px 0;
+    color: #1d1d1d;
+}
+.app-rating {
+    font-size: 1.2em;
+    color: #555;
+}
+.app-rating span {
+    color: #f39c12;
+}
+
+/* Screenshot Gallery */
+.app-screenshots h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+.screenshot-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+.screenshot-gallery img {
+    width: 220px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Download Button */
+.download-button {
+    margin: 20px 0;
+}
+.get-button {
+    display: inline-block;
+    background-color: #007aff;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.get-button:hover {
+    background-color: #005bb5;
+}
